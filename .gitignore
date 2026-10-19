@@ -1,0 +1,11 @@
+# Datos de ejecucion (historial de chat, modelos generados)
+/logs/
+/modelfiles/*.Modelfile
+
+# Modelos y binarios de Ollama (se descargan con bin/instalar-cerebro.sh)
+*.gguf
+
+# Temporales
+*.bak
+*.tmp
+*.log
